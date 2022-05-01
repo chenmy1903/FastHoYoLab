@@ -1,0 +1,340 @@
+2022-05-01 18:28:20,768 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.22 - 2022/05/01 | C:\Users\chenmy1903\Desktop\v2rayN-Core\v2rayN.exe
+2022-05-01 18:28:21,021 [1] DEBUG Log2 - 未能找到文件“C:\Users\chenmy1903\Desktop\v2rayN-Core\guiNConfig.json”。
+2022-05-01 18:28:21,027 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“C:\Users\chenmy1903\Desktop\v2rayN-Core\guiNConfig.json”。
+文件名:“C:\Users\chenmy1903\Desktop\v2rayN-Core\guiNConfig.json”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 v2rayN.Utils.LoadResource(String res)
+2022-05-01 18:29:21,414 [4] INFO  Log1 - UpdateTaskRun
+2022-05-01 18:29:31,788 [1] DEBUG Log2 - Base64Decode
+2022-05-01 18:29:31,790 [1] DEBUG Log2 - System.FormatException: 输入的不是有效的 Base-64 字符串，因为它包含非 Base-64 字符、两个以上的填充字符，或者填充字符间包含非法字符。
+   在 System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   在 System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   在 System.Convert.FromBase64String(String s)
+   在 v2rayN.Utils.Base64Decode(String plainText)
+2022-05-01 18:30:26,634 [1] DEBUG Log2 - Base64Decode
+2022-05-01 18:30:26,635 [1] DEBUG Log2 - System.FormatException: 输入的不是有效的 Base-64 字符串，因为它包含非 Base-64 字符、两个以上的填充字符，或者填充字符间包含非法字符。
+   在 System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   在 System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   在 System.Convert.FromBase64String(String s)
+   在 v2rayN.Utils.Base64Decode(String plainText)
+2022-05-01 18:30:29,875 [1] DEBUG Log2 - Base64Decode
+2022-05-01 18:30:29,876 [1] DEBUG Log2 - System.FormatException: 输入的不是有效的 Base-64 字符串，因为它包含非 Base-64 字符、两个以上的填充字符，或者填充字符间包含非法字符。
+   在 System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   在 System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   在 System.Convert.FromBase64String(String s)
+   在 v2rayN.Utils.Base64Decode(String plainText)
+2022-05-01 18:42:15,876 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.22 - 2022/05/01 | C:\Users\chenmy1903\Desktop\v2rayN-Core\v2rayN.exe
+2022-05-01 18:43:16,436 [4] INFO  Log1 - UpdateTaskRun
+2022-05-01 18:52:56,010 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.22 - 2022/05/01 | C:\Users\chenmy1903\Desktop\v2rayN-Core\v2rayN.exe
+2022-05-01 18:53:56,622 [4] INFO  Log1 - UpdateTaskRun
+2022-05-01 19:03:14,313 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.22 - 2022/05/01 | D:\shadiao\FastHoYoLab\core\v2rayN.exe
+2022-05-01 19:04:54,187 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.22 - 2022/05/01 | D:\shadiao\FastHoYoLab\core\v2rayN.exe
+2022-05-01 19:05:51,540 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.22 - 2022/05/01 | D:\shadiao\FastHoYoLab\core\v2rayN.exe
+2022-05-01 19:06:52,103 [4] INFO  Log1 - UpdateTaskRun
+2022-05-01 19:19:20,084 [1] DEBUG Log2 - 输入字符串的格式不正确。
+2022-05-01 19:19:20,089 [1] DEBUG Log2 - System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 v2rayN.Utils.ToInt(Object obj)
+2022-05-01 19:32:37,202 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.22 - 2022/05/01 | d:\shadiao\FastHoYoLab\core\v2rayN.exe
+2022-05-01 19:32:38,507 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:38,509 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:39,782 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:39,785 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:39,929 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:39,929 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:50,699 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:50,699 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:50,701 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:50,702 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:50,704 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:50,705 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:50,707 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:50,708 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:50,710 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:50,710 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:50,712 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:50,713 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:50,715 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:50,719 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:50,722 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:50,722 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:50,724 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:50,724 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:50,726 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:50,726 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:52,284 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:52,286 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:52,290 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:52,291 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:52,293 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:52,294 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:52,297 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:52,298 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:52,300 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:52,301 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:52,303 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:52,304 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:52,306 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:52,306 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:52,308 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:52,309 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:52,311 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:52,311 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:52,320 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:52,321 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:32:52,583 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:32:52,584 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:33:10,321 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.22 - 2022/05/01 | D:\shadiao\FastHoYoLab\core\v2rayN.exe
+2022-05-01 19:33:11,991 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:33:11,995 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:33:13,331 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:33:13,332 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:33:13,476 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:33:13,477 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:34:12,114 [4] INFO  Log1 - UpdateTaskRun
+2022-05-01 19:39:03,874 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:03,876 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:03,879 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:03,879 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:03,882 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:03,883 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:03,885 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:03,885 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:03,888 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:03,889 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:03,892 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:03,892 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:03,895 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:03,895 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:03,897 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:03,898 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:03,900 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:03,900 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:03,902 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:03,903 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:04,134 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:04,138 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:04,142 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:04,143 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:04,146 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:04,150 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:04,152 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:04,153 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:04,155 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:04,155 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:04,157 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:04,158 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:04,161 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:04,162 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:04,164 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:04,164 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:04,166 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:04,167 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:04,168 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:04,169 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:04,171 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:04,171 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)
+2022-05-01 19:39:04,344 [1] DEBUG Log2 - ToJsonFile
+2022-05-01 19:39:04,351 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”。
+文件名:“D:\shadiao\FastHoYoLab\guiNConfig.json_temp”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   在 v2rayN.Handler.ConfigHandler.ToJsonFile(Config config)

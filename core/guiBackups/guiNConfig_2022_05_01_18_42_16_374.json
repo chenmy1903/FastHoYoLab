@@ -1,0 +1,341 @@
+{
+  "logEnabled": false,
+  "loglevel": "warning",
+  "indexId": "4778775244165575624",
+  "muxEnabled": false,
+  "sysProxyType": 1,
+  "enableStatistics": false,
+  "keepOlderDedupl": false,
+  "statisticsFreshRate": 2000,
+  "remoteDNS": null,
+  "defAllowInsecure": false,
+  "domainStrategy": "IPIfNonMatch",
+  "domainMatcher": "linear",
+  "routingIndex": 2,
+  "enableRoutingAdvanced": true,
+  "ignoreGeoUpdateCore": false,
+  "systemProxyExceptions": null,
+  "systemProxyAdvancedProtocol": null,
+  "autoUpdateInterval": 0,
+  "autoUpdateSubInterval": 0,
+  "enableSecurityProtocolTls13": false,
+  "trayMenuServersLimit": 30,
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true,
+      "allowLANConn": false,
+      "user": null,
+      "pass": null
+    }
+  ],
+  "vmess": [
+    {
+      "indexId": "5560119579439894693",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 0,
+      "address": "iplc01.2333dns.com",
+      "port": 3071,
+      "id": "8cc8320f-f880-31c8-bb6a-1ecfc503a2ce",
+      "alterId": 0,
+      "security": "auto",
+      "network": "tcp",
+      "remarks": "CN-v2cross.com",
+      "headerType": "none",
+      "requestHost": "iplc01.2333dns.com",
+      "path": "/hls/cctv5phd.m3u8",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "testResult": "",
+      "subid": "",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null
+    },
+    {
+      "indexId": "4778775244165575624",
+      "configType": 3,
+      "configVersion": 2,
+      "sort": 0,
+      "address": "cn1.relay.iepl.pw",
+      "port": 50400,
+      "id": "df87f3f2-f2a7-4fae-ae7d-507cea790c95",
+      "alterId": 0,
+      "security": "aes-128-gcm",
+      "network": "",
+      "remarks": "CN-v2cross.com",
+      "headerType": "",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "testResult": "",
+      "subid": "",
+      "flow": "",
+      "sni": null,
+      "alpn": null,
+      "groupId": "",
+      "coreType": null
+    },
+    {
+      "indexId": "4689387207299513098",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 0,
+      "address": "fr1t.moonfree.top",
+      "port": 8443,
+      "id": "122f166c-537e-4e8f-9310-4e50652fa7e9",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "US-v2cross.com",
+      "headerType": "none",
+      "requestHost": "fr1t.moonfree.top",
+      "path": "/",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "",
+      "subid": "",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null
+    }
+  ],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "subItem": [],
+  "uiItem": {
+    "enableAutoAdjustMainLvColWidth": true,
+    "mainLocation": "543, 213",
+    "mainSize": "1287, 788",
+    "mainLvColWidth": {
+      "def": 30,
+      "configType": 119,
+      "remarks": 100,
+      "address": 120,
+      "port": 100,
+      "security": 120,
+      "network": 120,
+      "streamSecurity": 100,
+      "subRemarks": 100,
+      "testResult": 120
+    }
+  },
+  "routings": [
+    {
+      "remarks": "绕过大陆(Whitelist)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "geosite:cn"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": [
+            "geoip:private",
+            "geoip:cn"
+          ],
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "黑名单(Blacklist)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": null,
+          "protocol": [
+            "bittorrent"
+          ],
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": [
+            "geoip:telegram"
+          ],
+          "domain": [
+            "geosite:gfw",
+            "geosite:greatfire",
+            "geosite:tld-!cn"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "全局(Global)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "locked",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": [
+            "geosite:google"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": true,
+      "customIcon": null
+    }
+  ],
+  "constItem": {
+    "speedTestUrl": "http://cachefly.cachefly.net/10mb.test",
+    "speedPingTestUrl": "https://www.google.com/generate_204",
+    "defIEProxyExceptions": "localhost;127.*;10.*;172.16.*;172.17.*;172.18.*;172.19.*;172.20.*;172.21.*;172.22.*;172.23.*;172.24.*;172.25.*;172.26.*;172.27.*;172.28.*;172.29.*;172.30.*;172.31.*;192.168.*"
+  },
+  "globalHotkeys": null,
+  "groupItem": [],
+  "coreTypeItem": null
+}
